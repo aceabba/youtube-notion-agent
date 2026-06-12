@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .step-connector {
+    @apply flex-1 h-0.5 mx-2;
+    margin-bottom: 2.25rem; /* align with center of w-9 h-9 circle + label height */
+  }
+}
